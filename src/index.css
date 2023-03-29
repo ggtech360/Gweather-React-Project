@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Pacifico&family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body {
+  background: url('/src/IMG/clear_sky.jpg');
+  background-size: cover;
 }
